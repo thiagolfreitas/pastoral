@@ -20,17 +20,23 @@
                   <div class="row col-md-12 col-sm-12 p-0">
                      <nav class="menu-acesso__informacoes col">
                         <ul>
-                           <li>
+                           <li class="menu-acesso__quem-somos">
                               <i class="fas fa-phone-alt"></i> Quem Somos
                            </li>
-                           <li><i class="fas fa-users"></i> Contatos</li>
-                           <li><i class="fas fa-sitemap"></i> Mapa do Site</li>
+                           <li class="menu-acesso__contatos">
+                              <i class="fas fa-users"></i> Contatos
+                           </li>
+                           <li class="menu-acesso__mapa-site">
+                              <i class="fas fa-sitemap"></i> Mapa do Site
+                           </li>
                         </ul>
                      </nav>
                      <nav class="menu-acesso__acessibilidade">
                         <ul>
-                           <li><i class="fas fa-adjust"></i> Alto Contraste</li>
-                           <li>Libras</li>
+                           <li class="menu-acesso__alto-contraste">
+                              <i class="fas fa-adjust"></i> Alto Contraste
+                           </li>
+                           <li class="icone-libras"><img src="./shared/image/libras.svg"></li>
                         </ul>
                      </nav>
                   </div>
@@ -40,7 +46,7 @@
             
             <nav class="navbar navbar-expand-lg navbar-light navbar-topo">
                <div class="container p-0">
-               <h2 class="nav-menu__assinatura-principal col-3 p-0">Pastoral</h2>
+               <h2 class="nav-menu__assinatura-principal col-3 p-0 mt-1">Pastoral</h2>
 
                <button class="navbar-toggler" type="button" data-toggle="collapse" 
                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -56,7 +62,7 @@
                     
                        <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            FAMÍLIA
+                              <span class="nav-item__familia">FAMÍLIA</span> 
                             <i class="fas fa-chevron-down"></i>
                          </a>
                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -70,8 +76,9 @@
                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               VIDA
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <span class="nav-item__vida">VIDA</span>
                                <i class="fas fa-chevron-down"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -88,7 +95,7 @@
                                <a class="nav-link dropdown-toggle" href="#" 
                                id="navbarDropdown" role="button" data-toggle="dropdown" 
                                aria-haspopup="true" aria-expanded="false">
-                               FORMAÇÃO
+                               <span class="nav-item__formacao">FORMAÇÃO</span>
                                   <i class="fas fa-chevron-down"></i>
                                </a>
                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -103,7 +110,7 @@
                              
                                 <li class="nav-item dropdown">
                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    BIO ÉTICA
+                                       <span class="nav-item__bio-etica"> BIO ÉTICA</span>
                                      <i class="fas fa-chevron-down"></i>
                                   </a>
                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -134,7 +141,7 @@
                <div class="container">
                   <div class="row">
                      <div class="subtitulo-box__image  p-0">
-                        <img src="./shared/image/logo 1.png" class="rounded img-fluid" alt="" />
+                        <img src="./shared/image/logo 1.png" class="img-fluid cover" alt="" />
                      </div>
                      <div class="col p-0">
                         <h4 class="subtitulo-box__titulo p-0 m-0">FORMAÇÃO</h4>
@@ -152,7 +159,6 @@
                   <div class="row">
                      <div class="categoria__box col-md-6 col-sm-12">
                         <div class="col">
-                           <!-- Single Blog -->
                            <div class="categoria__item">
                               <div class="categoria__image">
                                  <img src="./shared/image/Rectangle-90.png" aclass="img-fluid" alt="">
@@ -168,7 +174,6 @@
                      </div>
                      <div class="categoria__box col-md-6 col-sm-12">
                         <div class="col">
-                           <!-- Single Blog -->
                            <div class="categoria__item">
                               <div class="categoria__image">
                                  <img src="./shared/image/Rectangle-90.png" alt="">
@@ -229,7 +234,7 @@
                         <!-- PUBLICIDADE BLOCO -->
                         <section class="publicidade-bloco mt-5">
                            <div class="row">
-                              <div class="publicidade-bloco__img">
+                              <div class="publicidade-bloco__img img-fluid">
                                  <img src="/pages/shared/image/Retagulo-249.png" alt="">
                               </div>
                            </div>
@@ -334,7 +339,7 @@
                         </section>
                      </div>
                      <div class="col-md-4 col-sm-12">
-                        <section class="categoria-importante mt-3">
+                        <section class="categoria-importante mt-5">
                            <ul class="list-group">
                               <li class="list-group-item">Categoria Importante<span class="badge badge-pill badge-secondary float-right">10</span></li>
                               <li class="list-group-item">Segunda Categoria<span class="badge badge-pill badge-secondary float-right">10</span></li>
@@ -346,6 +351,7 @@
 
                         <!-- MAIS ACESSADOS ASIDE -->
                         <section class="mais-acessados col">
+                              <h5 class="mais-acessados__titulo-box row">Posts Mais Acessados</h5>
                            <div class="row mt-3">
                               <div class="mais-acessados__image">
                                  <img src="http://infinityflamesoft.com/html/abal-preview/assets/img/blog/blog1.jpg" class="img-fluid" alt="">
