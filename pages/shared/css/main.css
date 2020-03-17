@@ -21,6 +21,7 @@ body {
 
 .border-section {
     border-bottom: 1px solid #E7E7E7;
+    margin-top: 40px;
 }
 
 /*------------- BOOTSTRAP  CLASS ----------------*/
@@ -527,8 +528,8 @@ li.list-group-item {
   
    .categoria-multimidia__categoria span {
       display: inline-block;
-      background-color: #6A6969;
-      color: #fff;
+      background-color: #FFF;
+      color: #6A6969;
       font-size: .7rem;
       text-transform: uppercase;
       padding: 3px;
@@ -620,7 +621,7 @@ li.list-group-item {
     /*--------- MULTIMIDIA  VÍDEOS  -------------*/
 
     .multimidia-ultimos-videos--box:last-child {
-        border-bottom: 1px solid #DDD;
+        /* border-bottom: 1px solid #DDD; */
         padding: 30px 0;
     }
     
@@ -673,7 +674,10 @@ li.list-group-item {
 
     .multimidia__ver-tudo {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
+        color: #7C7C7C;
+        font-size: 14px;
+        font-weight: bold;
     }
 
     /*------------MULTIMIDIA BLOCO COMPLETO--------------------*/
@@ -739,17 +743,30 @@ li.list-group-item {
     .multimidia-nome-categoria--box__box {
         padding: 0 20px 0 0;
         text-align: center;
+        width: 100%;
     }
 
-    .multimidia__ver-tudo {
-        display: flex;
-        justify-content: end;
+    .multimidia-nome-categoria--box__image  img {
+        width: 100%;
     }
+
 
     /*-------------- POST FULL -----------------*/
 
     .post-full {
 
+    }
+
+    .post-full__box img {
+        width: 100%;
+    }
+
+    .post-full__img-1 img {
+        width: 100%;
+    }
+
+    .post-full__post-relacionado img {
+        width: 100%;
     }
 
     .post-full__categoria {
@@ -945,6 +962,13 @@ li.list-group-item {
   
    /*------------------------------------ RESPONSIVO ------------------------------------/
 
+
+   /*-- GLOBAL ---*/
+   @media (max-width: 576px) {
+   .menu-acesso {
+    padding: 29px 10px;
+   }
+}
 
    /*-- PRINCIPAL--*/
 
