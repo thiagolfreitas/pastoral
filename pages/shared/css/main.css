@@ -272,6 +272,7 @@ li.list-group-item {
 
 .ultimas-noticias__image{
     max-width: 255px;
+    padding-left: 0;
 }
 
 .ultimas-noticias__image img {
@@ -822,7 +823,8 @@ li.list-group-item {
 
     .post-full__img-1 img {
         align-items: center;
-        width: 100%;      
+        width: 100%;
+        padding: 0      
     }
 
     .post-full__img-2 {
@@ -985,4 +987,12 @@ li.list-group-item {
     .ultimos-artigos__box {
         padding: 0 15px;
     }
+    .ultimas-noticias__item img {
+        padding: 0;
+    }
+
+    .ultimas-noticias__image {
+        padding: 0 15px;
+    }
+
    }
